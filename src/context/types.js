@@ -1,0 +1,6 @@
+export const ADD_LOCATION = "ADD_LOCATION";
+export const DELETE_LOCATION = 'DELETE_LOCATION';
+export const UPDATE_LOCATION = 'UPDATE_LOCATION';
+export const GET_LOCATION = 'GET_LOCATION';
+export const SET_CURRENT = 'SET_CURRENT';
+export const CLEAR_CURRENT = 'CLEAR_CURRENT';

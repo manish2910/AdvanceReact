@@ -1,0 +1,109 @@
+.modal {
+    background-color: white;
+    width: 650px;
+    padding: 16px;
+    height: auto;
+    position: relative;
+    top: 8%;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.modal_popup{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.FTForm input[type="text"]{
+    width: 75px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px 3px;
+    margin: 0px 5px;
+}
+
+.FTForm input[type="checkbox"]{
+    border: none;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px 3px;
+    margin: 0px 5px;
+}
+
+.FTForm{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    margin: 25px 0px 0px;
+}
+
+.FTForm div:nth-child(1){
+    width: 10%;
+}
+
+.FTForm div:nth-child(2){
+    width: 30%;
+}
+
+.FTForm div:nth-child(3){
+    width: 30%;
+}
+
+.FTForm div:nth-child(4){
+    width: 30%;
+}
+
+.FTForm:first-child::after{
+    content: "To";
+    position: absolute;
+    left: 45%;
+    top: 8.5%;
+    font-size: 14px;
+}
+
+.FTForm:first-child::before{
+    content: "From";
+    position: absolute;
+    left: 16%;
+    top: 8.5%;
+    font-size: 14px;
+}
+
+.ft_button{
+    margin: 20px 15px 5px;
+}
+
+.form{
+    text-align: center;
+}
+
+.am{
+    padding: 5px 10px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #E3E3E3;
+    cursor: pointer;
+    background: #E3E3E3;
+}
+
+.pm{
+    padding: 5px 10px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #E3E3E3;
+    cursor: pointer;
+    background: #E3E3E3;
+}
+
+.all_checked{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid #2B5F8E;
+    background: #ffffff;
+    color: #2B5F8E;
+    cursor: pointer;
+}

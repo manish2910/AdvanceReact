@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:first-child{
+    margin: 10px;
+    font-size: 12px;
+}
+
+nav a:first-child{
+    color: rgba(0,0,0,0.7);
+}
+
+nav a:last-child{
+    background-color: #29608E;
+    padding: 10px;
+    border-radius: 20px;
+    height: max-content;
+    width: max-content;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+}

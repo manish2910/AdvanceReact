@@ -1,0 +1,111 @@
+.addlocation_main_div{
+    max-width: 600px;
+    background-color: white;
+    margin: 60px auto 0px;
+    padding: 15px 20px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.addlocation_main_div div:first-child{
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #2B5F8E;
+}
+
+.addlocation_main_div input{
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 7px 8px 0px 0px;
+    font-size: 17px;
+    width: 100%;
+}
+
+.inline_design span:first-child{
+    margin: 0px 15px 0px 0px;
+    width: 45%;
+}
+
+.inline_design span:last-child{
+    width:50%;
+}
+
+.addlocation_main_div form div label{
+    font-size: 13px;
+    color: black;
+}
+
+.addlocation_main_div form .inline_design{
+    display: flex;
+    display: -webkit-flex
+}
+
+.inline_design_margin_top{
+    margin-top: 12px;
+}
+
+.addlocation_main_div input:focus{
+    outline: none;
+    border-bottom: 1px solid#0d7385;
+}
+
+select{
+    padding: 7px 0px 3px;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+select:focus{
+    outline: none;
+}
+
+.addlocation_main_div input::placeholder{
+    font-size: 12px;
+}
+
+.addlocation_action_button{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.addlocation_action_button button{
+    padding: 8px;
+    min-width:80px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    height: max-content;
+    border: none;
+    font-size: 15px;
+}
+
+.addlocation_action_button button:focus{
+    outline: none;
+}
+
+.addlocation_action_button button:first-child{
+    color: white;
+    background-color:#F86A5E;
+}
+
+.addlocation_action_button button:last-child{
+    color: white;
+    background-color:#2B5F8E;
+}
+
+.PhoneInputCountry{
+    display: none;
+}
+
+#facilityTimes{
+    font-size: 12px;
+    padding: 10px 0px 3px;
+    text-align: left;
+    background: transparent;
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+}

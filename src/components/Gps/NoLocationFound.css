@@ -1,0 +1,18 @@
+.notfound_main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.notfound_main div:last-child{
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.notfound_main div{
+    margin: 10px 0px;
+    font-weight: 600;
+}
